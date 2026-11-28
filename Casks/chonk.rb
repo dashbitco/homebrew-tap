@@ -1,9 +1,9 @@
 cask "chonk" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.0.12"
-  sha256 arm:   "a3495278621fe7fb9737ca71541652c31466bf3f9cfe8f52af2acc749bd2a1f6",
-         intel: "d61a57948df324f13247ed15fee3a6aecef408ada256ccb299fc65b44580e356"
+  version "0.0.13"
+  sha256 arm:   "4436a9f935282a97b3a7e6250ade70f5c98bd0991f339b610c05f2e242cd990f",
+         intel: "8d2303489cec94f888b0d23496f9b6773fcd934e35f9edf69ab1437e7e706ca0"
 
   url "https://github.com/dashbitco/chonk-releases/releases/download/v#{version}/Chonk-darwin-#{arch}.dmg"
   name "Chonk"
